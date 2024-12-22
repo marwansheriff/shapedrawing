@@ -8,7 +8,6 @@ let isDrawing = false;  // Track whether the user is currently drawing
 function drawBasicShape(type, color) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);  // Clear canvas
   ctx.fillStyle = color;
-
   if (type === 'circle') {
     ctx.beginPath();
     ctx.arc(canvas.width / 2, 250, 100, 0, 2 * Math.PI);  // Draw a circle
