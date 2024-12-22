@@ -75,7 +75,7 @@ function enableFreeDraw(mode) {
 }
 
 
-function randomshape() {
+function randomshap() {
   const midX = canvas.width / 2;
   const midY = canvas.height / 2;
   const outlineOnly = true;
@@ -116,8 +116,8 @@ document.getElementById('drawBtn').addEventListener('click', function () {
     enableFreeDraw(1);  // Activate free drawing mode
   } else if (selectedShape === 'FREE2') {
     enableFreeDraw(2);  // Activate free drawing mode
-  } else if (selectedShape === 'randomshape') {
-    randomshape();
+  } else if (selectedShape === 'randomshap') {
+    randomshap();
   } else {
     drawBasicShape(selectedShape, selectedColor);
   }
